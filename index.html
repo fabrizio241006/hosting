@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pagina de F.L.</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body color="black" text="white">
+    
+    <header>
+        <div class="logo">
+            <img src="scorp2.png" alt="logo">                  
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inf.Admin</inf></a></li>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="#">Biblioteca</a></li>
+                <li><a href="#">Chat</a></li>
+                <li><a href="#">Pasen names</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured-games">
+            <h2>Mis redes sociales, donde no subo nada pero bue</h2>        
+            <div class="box-container">
+                <div class="box">
+                <img src="tiktok.png" alt="tik tok" class="imagen-personalizada">                
+                <button class="boton-per" onclick="tiktok()">TiK Tok</button>
+                <script>
+                    function tiktok(){
+                        window.open("https://www.tiktok.com/@francescobernoulli13?is_from_webapp=1&sender_device=pc")
+                    }
+                </script>
+                </div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                <img src="facebook.png" alt="Facebook" class="imagen-personalizada1">                
+                <button class="boton-per1" onclick="facbook()">Facebook</button>
+                <script>
+                    function facbook(){
+                        window.open("https://www.facebook.com/fabrizio.lattina/about")
+                    }
+                </script>
+                </div>
+            </div>
+            </section>
+            <section class="user-library">            
+            <h2>Mi Biblioteca</h2>            
+               <div class="game">
+                <img src="game3.jpg" alt="Juegos">
+                <button>Juegos</button>
+            </div>
+            <div class="game">
+                <img src="game4.jpg" alt="Animaciones">
+                <button>Memes</button>
+            </div>  
+                     
+        </section>
+    </main>
+
+    <div id="fondo" class="container">
+        <a href="#" class="image-link">
+            <img src="200px-Liukang2cut98.webp" alt="Imagen" class="image">
+        </a>
+        <a href="#" class="image-link">
+            <img src="Mileena_c1_d.webp" alt="Imagen" class="image">
+        </a>
+        <a href="#" class="image-link">
+            <img src="Mk9-sub-zeromk1.webp" alt="Imagen" class="image">
+        </a>
+        <a href="#" class="image-link">
+            <img src="Scorpion_29.webp" alt="Imagen" class="image">
+        </a>
+    </div>
+                                                  
+    <footer><p>&copy; Empresas Fabrizio :)</p> 
+        <center><button onclick="soporte()">soporte</button>
+    </footer>    
+    <script>
+        function soporte() {
+              var nuevaPagina = window.open();
+            nuevaPagina.document.write("<html><head><title>Soporte fabri</title><h1>Aqui no hay nada papi, busque usted la solucion</h1></head></html>");
+        }
+    </script>
+    </center>
+</body>
+</html>
